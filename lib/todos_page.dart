@@ -5,6 +5,11 @@ class TodosPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('Flutter interview app'),
+      ),
+      body: Container(),
+    );
   }
 }
